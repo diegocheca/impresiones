@@ -505,7 +505,7 @@
             </div>
 
             <div class="approach-right-shape shape-three">
-                <img src="{{ url('page\assets\img\svg\approach-right-shape.png') }}" alt="Image">
+                <img src="{{ url('page\assets\img\approach-right-shape.png') }}" alt="Image">
             </div>
         </section>
         <!-- End Our Approach Area -->
@@ -517,16 +517,16 @@
                     <div class="col-lg-6">
                         <div class="solution-content">
                             <div class="solution-title">
-                                <span>All-in Solution</span>
-                                <h2>Our experts are providing and planning 24/7 technical support services with product and security consultation.</h2>
+                                <span>Pasa para hacer tu comprar</span>
+                                <h2>¿Queres probar nuestros productos o servicios? Es facil y rápido, tenes que seguir estos pasos.</h2>
                             </div>
 
                             <div class="row">
                                 <div class="col-lg-12 col-md-6">
                                     <div class="single-solution overly-one">
                                         <div class="overly-two">
-                                            <h3>Product Consultation</h3>
-                                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</p>
+                                            <h3>1 - Envianos lo que deseas imprimir</h3>
+                                            <p>Hay varias formas de enviarnos tus documentos, vía email (haciendo click aca), vía nuestra innovadora plataforma (haciendo click aca), vía whatsapp (haciendo click aca) o de la manera que quieras.</p>
                                             <span>01</span>
                                         </div>
                                     </div>
@@ -535,8 +535,8 @@
                                 <div class="col-lg-12 col-md-6">
                                     <div class="single-solution overly-one">
                                         <div class="overly-two">
-                                            <h3>Security Consultation</h3>
-                                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</p>
+                                            <h3>2 - Lo imprimimos</h3>
+                                            <p>Teniendo en cuanta como hiciste tu pedido, nosotros nos encargamos de imprimirlo.</p>
                                             <span>02</span>
                                         </div>
                                     </div>
@@ -545,8 +545,8 @@
                                 <div class="col-lg-12 col-md-6 offset-md-3 offset-lg-0">
                                     <div class="single-solution overly-one">
                                         <div class="overly-two">
-                                            <h3>24/7 Technical Support</h3>
-                                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</p>
+                                            <h3>3 - Te lo mandamos</h3>
+                                            <p>Te lo mandamos a donde vos nos dijiste.</p>
                                             <span>03</span>
                                         </div>
                                     </div>
@@ -573,8 +573,8 @@
         <section class="safety-area pt-100 pb-70">
             <div class="container">
                 <div class="section-title">
-                    <span>Cyber Safety</span>
-                    <h2>How Can We Keep Uur Website Safe FRom Cyber Crimes</h2>
+                    <span>Nuestros Productos</span>
+                    <h2>Alguno de los productos o servicios que ofrecemos son</h2>
                 </div>
 
                 <div class="row">
@@ -582,8 +582,8 @@
                         <div class="single-safety overly-one">
                             <div class="overly-two">
                                 <img src="{{ url('page\assets\img\safety-icon\impresora.png') }}" alt="Image" width="20%">
-                                <h3>Check Website Url</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                                <h3>Impresiones Remotas</h3>
+                                <p>Nos envias tus documentos a imprimir y nosotros lo imprimimos por vos.</p>
                             </div>
                         </div>
                     </div>
@@ -591,9 +591,9 @@
                     <div class="col-lg-4 col-sm-6">
                         <div class="single-safety overly-one">
                             <div class="overly-two">
-                                <img src="{{ url('page\assets\img\safety-icon\icon-2.png') }} " alt="Image">
-                                <h3>Check Emails Before Opening Them</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                                <img src="{{ url('page\assets\img\safety-icon\printphone.png') }} " alt="Image" width="20%">
+                                <h3>Multiplataforma</h3>
+                                <p>Podes imprimir desde cualquier dispositivo. También podes gestionar tus archivos desde tu celular.</p>
                             </div>
                         </div>
                     </div>
@@ -601,9 +601,9 @@
                     <div class="col-lg-4 col-sm-6">
                         <div class="single-safety overly-one">
                             <div class="overly-two">
-                                <img src="{{ url('page\assets\img\safety-icon\icon-3.png') }} " alt="Image">
-                                <h3>Remember To Log Off</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                                <img src="{{ url('page\assets\img\safety-icon\cloud-storage.png') }} " alt="Image" width="20%">
+                                <h3>Plataforma web para trabajar</h3>
+                                <p>Con nuestra plataforma web, podes subir tus archivos y editarlos en linea.</p>
                             </div>
                         </div>
                     </div>
@@ -611,9 +611,9 @@
                     <div class="col-lg-4 col-sm-6">
                         <div class="single-safety overly-one">
                             <div class="overly-two">
-                                <img src="{{ url('page\assets\img\safety-icon\icon-4.png') }} " alt="Image">
-                                <h3>Choose Strong Passwords</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                                <img src="{{ url('page\assets\img\safety-icon\calendar.png') }} " alt="Image" width="20%">
+                                <h3>Impresiones Programadas</h3>
+                                <p>Elegí que día queres que te llegue lo que pidas a tu casa, y no te preocupes por olvidarte.</p>
                             </div>
                         </div>
                     </div>
@@ -621,9 +621,9 @@
                     <div class="col-lg-4 col-sm-6">
                         <div class="single-safety overly-one">
                             <div class="overly-two">
-                                <img src="{{ url('page\assets\img\safety-icon\icon-5.png') }} " alt="Image">
-                                <h3>Shop Safety In Trusted Websites</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                                <img src="{{ url('page\assets\img\safety-icon\cloud-computing.png') }} " alt="Image" width="20%">
+                                <h3>Impresora Online</h3>
+                                <p>Con este servicio podes imprimir en nuestras impresoras como si estuvieran en tu oficina.</p>
                             </div>
                         </div>
                     </div>
@@ -631,9 +631,9 @@
                     <div class="col-lg-4 col-sm-6">
                         <div class="single-safety overly-one">
                             <div class="overly-two">
-                                <img src="{{ url('page\assets\img\safety-icon\icon-6.png') }} " alt="Image">
-                                <h3>Update Your Antivirus</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                                <img src="{{ url('page\assets\img\safety-icon\rocket.png') }} " alt="Image" width="20%">
+                                <h3>Ahorra en mantenimiento</h3>
+                                <p>Nosotros imprimimos lo que vos necesitas, sin que te preocupes por el estado impresora ni sus insumos.</p>
                             </div>
                         </div>
                     </div>
@@ -665,9 +665,11 @@
                         <div class="single-pricing overly-one">
                             <div class="overly-two">
                                 <div class="pricing-title">
-                                    <h3>Basic</h3>
-                                    <h2>Free</h2>
-                                    <span>/Per month</span>
+                                    
+                                    <img src="{{ url('page\assets\img\precio\impresora-texto-precio.svg') }}" alt="Image" width="35%" height="35%" />
+                                    <h3>Imprimir Texto</h3>
+                                    <h2><sub>$</sub>5</h2>
+                                    <span>/Por Hoja</span>
                                 </div>
     
                                 <ul>
@@ -698,9 +700,10 @@
                         <div class="single-pricing overly-one">
                             <div class="overly-two">
                                 <div class="pricing-title">
+                                    <img src="{{ url('page\assets\img\precio\impresora-imagen-precio.svg') }}" alt="Image" width="30%" height="30%" />
                                     <h3>Popular</h3>
-                                    <h2><sub>$</sub>29</h2>
-                                    <span>/Per month</span>
+                                    <h2><sub>$</sub>22</h2>
+                                    <span>/Por Hoja</span>
                                 </div>
     
                                 <ul>
@@ -731,9 +734,11 @@
                         <div class="single-pricing overly-one">
                             <div class="overly-two">
                                 <div class="pricing-title">
-                                    <h3>Basic</h3>
-                                    <h2><sub>$</sub>59</h2>
-                                    <span>/Per month</span>
+                                    
+                                    <img src="{{ url('page\assets\img\precio\libro-precio.svg') }}" alt="Image" width="38%" height="38%" />
+                                    <h3>Por Cantidad o Libro</h3>
+                                    <h2><sub>$</sub>16</h2>
+                                    <span>/Por Hoja</span>
                                 </div>
     
                                 <ul>
@@ -774,26 +779,26 @@
                 <div class="row align-items-center">
                     <div class="col-lg-4">
                         <div class="counter-img">
-                            <img src="{{ url('page\assets\img\counter-img.png') }}" alt="Image">
+                            <img src="{{ url('page\assets\img\svg\rocketstartup.svg') }}" alt="Image" >
                         </div>
                     </div>
 
                     <div class="col-lg-8">
                         <div class="counter-max-wide">
                             <div class="section-title">
-                                <span>Why Choose Us</span>
-                                <h2>We Have a Lot of Skills in Cyber Security</h2>
+                                <span>Por que elegirnos</span>
+                                <h2>Nuestros números</h2>
                             </div>
                         
                             <div class="row">
                                 <div class="col-lg-6 col-sm-6">
                                     <div class="single-counter overly-one">
                                         <div class="overly-two">
-                                            <i class="flaticon-authentication"></i>
+                                            <img src="{{ url('page\assets\img\svg\impresoracloud.svg') }}" alt="Image" width="35%" height="35%" />
                                             <h2>
                                                 <span class="odometer" data-count="365">00</span>
                                             </h2>
-                                            <h3>Clients Protection</h3>
+                                            <h3>Impresora Contectadas</h3>
                                         </div>
                                     </div>
                                 </div>
@@ -801,11 +806,11 @@
                                 <div class="col-lg-6 col-sm-6">
                                     <div class="single-counter overly-one">
                                         <div class="overly-two">
-                                            <i class="flaticon-reliability"></i>
+                                            <img src="{{ url('page\assets\img\svg\cartuchos.svg') }}" alt="Image" width="35%" height="35%" />
                                             <h2>
                                                 <span class="odometer" data-count="1000">00</span> 
                                             </h2>
-                                            <h3>Trusted Organizations</h3>
+                                            <h3>Insumos Vendidos</h3>
                                         </div>
                                     </div>
                                 </div>
@@ -813,11 +818,11 @@
                                 <div class="col-lg-6 col-sm-6">
                                     <div class="single-counter overly-one">
                                         <div class="overly-two">
-                                            <i class="flaticon-web-protection"></i>
+                                            <img src="{{ url('page\assets\img\svg\impresoraerror.svg') }}" alt="Image" width="35%" height="35%" />
                                             <h2>
                                                 <span class="odometer" data-count="567">00</span> 
                                             </h2>
-                                            <h3>Website Protection</h3>
+                                            <h3>Impresoras Reparadas</h3>
                                         </div>
                                     </div>
                                 </div>
@@ -825,12 +830,12 @@
                                 <div class="col-lg-6 col-sm-6">
                                     <div class="single-counter overly-one">
                                         <div class="overly-two">
-                                            <i class="flaticon-innovation"></i>
+                                            <img src="{{ url('page\assets\img\svg\impresorawarning.svg') }}" alt="Image" width="35%" height="35%" />
                                             <h2>
                                                 <span class="odometer" data-count="100">00</span> 
                                                 <span class="target">%</span>
                                             </h2>
-                                            <h3>Innovative Technology</h3>
+                                            <h3>Impresora Mantenidas</h3>
                                         </div>
                                     </div>
                                 </div>
@@ -842,7 +847,7 @@
         </section>
         <!-- End Counter Area -->
 
-        <!-- Start Team Area -->
+        <!-- Start Team Area ->
         <section class="team-area team-area-three white-bg pt-100 pb-70">
             <div class="container">
                 <div class="section-title">
@@ -921,7 +926,7 @@
 
                     <div class="col-lg-4 col-sm-6 offset-sm-3 offset-lg-0">
                         <div class="single-team">
-                            <img src="{{ url('page\assets\img\team-img-3.jpg') }} " alt="Image">
+                            <img src="{{ url('page\assets\img\team\team-img-3.jpg') }} " alt="Image">
 
                             <div class="team-content">
                                 <h3>Andrew Gleeson</h3>
@@ -1036,25 +1041,25 @@
                         <div class="faq-accordion">
                             <div class="faq-title">
                                 <h2>Frequently Asked Questions</h2>
-                                <span>Just Find Your Answers Below</span>
+                                <span>Te ayudamos con tus preguntas</span>
                             </div>
 
                             <ul class="accordion">
                                 <li class="accordion-item">
                                     <a class="accordion-title active" href="javascript:void(0)">
                                         <i class="bx bx-plus"></i>
-                                        What is a managed security service?
+                                        ¿Como hago mi usuario?
                                     </a>
         
                                     <div class="accordion-content show">
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui in, illo blanditiis quisquam quam asperiores veritatis, earum quibusdam laudantium distinctio dolore placeat recusandae ratione maxime odit delectus nobis doloribus quia Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui in, illo blanditiis</p>
+                                        <p>Para crear tu usuario lo que necesitas acceder a esta direccion, luego completar los datos que te solicitamos. Asi crearas tu usuario, luego necesitas iniciar sesion, para asi poder subir archivos para imprimir</p>
                                     </div>
                                 </li>
         
                                 <li class="accordion-item">
                                     <a class="accordion-title" href="javascript:void(0)">
                                         <i class="bx bx-plus"></i>
-                                        Why do we need cybersecurity?
+                                        ¿Cual es el precio del envio?
                                     </a>
         
                                     <div class="accordion-content">
@@ -1065,7 +1070,7 @@
                                 <li class="accordion-item">
                                     <a class="accordion-title" href="javascript:void(0)">
                                         <i class="bx bx-plus"></i>
-                                        What is theaa best way to learn cybersecurity?
+                                        ¿Puedo ir a buscar que imprimi?
                                     </a>
         
                                     <div class="accordion-content">
@@ -1076,7 +1081,7 @@
                                 <li class="accordion-item">
                                     <a class="accordion-title" href="javascript:void(0)">
                                         <i class="bx bx-plus"></i>
-                                        How do i secure my computer?
+                                        ¿Como comunicarse con nosotros?
                                     </a>
         
                                     <div class="accordion-content">
@@ -1087,7 +1092,7 @@
                                 <li class="accordion-item">
                                     <a class="accordion-title" href="javascript:void(0)">
                                         <i class="bx bx-plus"></i>
-                                        What are theaa costs of a cyber attack?
+                                        ¿Otras solicitudes?
                                     </a>
         
                                     <div class="accordion-content">
@@ -1098,7 +1103,7 @@
                                 <li class="accordion-item">
                                     <a class="accordion-title" href="javascript:void(0)">
                                         <i class="bx bx-plus"></i>
-                                        How can i safely browse the internet?
+                                        ¿Mis datos esta seguros en la plataforma?
                                     </a>
         
                                     <div class="accordion-content">
