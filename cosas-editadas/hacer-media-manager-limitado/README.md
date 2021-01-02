@@ -71,5 +71,15 @@ Segundo , en el archivo 2, se deben agregar las líneas:
 ```
 {% endcode %}
 
+Adicionalmente se puede modificar los datos que se permiten subir desde el media manager, para realizar esto se debe ir al archivo project\config\voyager.php --&gt; luego descomentar el array con nombre: 'allowed\_mimetypes' , que se encuentra cerca de la lineal 220. Ahí mismo especificar que archivos se pueden subir y cuales no.
 
+Luego de esto se deben correr estos comandos
+
+```bash
+php artisan config:cache
+php artisan cache:clear
+php artisan config:clear
+```
+
+Reiniciar el servidor, terminando el proceso php artisan serve y volver a correr, luego cerrar sesión con el usuario y volver a loguearse. Eso es suficiente para que funcione correctamente.
 
