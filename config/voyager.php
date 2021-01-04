@@ -132,6 +132,10 @@ return [
                 'classes'    => 'class-full-of-rum',
                 'icon_class' => 'voyager-person',
             ],
+            'Historial' => [
+                'route'      => 'voyager.historial',
+                'icon_class' => 'voyager-logbook',
+            ],
             'voyager::generic.home' => [
                 'route'        => '/',
                 'icon_class'   => 'voyager-home',
@@ -147,6 +151,7 @@ return [
             'TCG\\Voyager\\Widgets\\UserDimmer',
             'TCG\\Voyager\\Widgets\\PostDimmer',
             'TCG\\Voyager\\Widgets\\PageDimmer',
+            'TCG\\Voyager\\Widgets\\FilesDimmer',
         ],
 
     ],
@@ -210,16 +215,18 @@ return [
 
     'media' => [
         // The allowed mimetypes to be uploaded through the media-manager.
-        'allowed_mimetypes' => '*', //All types can be uploaded
-        /*
+        //'allowed_mimetypes' => '*', //All types can be uploaded
+        
         'allowed_mimetypes' => [
           'image/jpeg',
           'image/png',
-          'image/gif',
-          'image/bmp',
-          'video/mp4',
+          'application/msword',
+          'application/pdf',
+          //'image/gif',
+          //'image/bmp',
+          //'video/mp4',
         ],
-        */
+        
         //Path for media-manager. Relative to the filesystem.
         'path'                => '/',
         'show_folders'        => true,
