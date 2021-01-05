@@ -55,9 +55,13 @@ Paso 1 editar el array de minetype:world:
 
 ## Haciendo las modificaciones validas
 
-Paso 1: parar el servicio del servidor \(control + c , en la consola donde este corriendo\)
+Paso 1: cerrar sesion de usuario
 
-Paso 2: correr los comandos:
+Paso 2: borrar datos de cache del sitio.
+
+Paso 3: parar el servicio del servidor \(control + c , en la consola donde este corriendo\)
+
+Paso 4: correr los comandos:
 
 ```bash
 php artisan cache:clear
@@ -65,5 +69,5 @@ php artisan config:clear
 php artisan config:cace
 ```
 
-Paso 3:
+Paso 4: volver a ingresar al sistema, loguearse y probar
 
