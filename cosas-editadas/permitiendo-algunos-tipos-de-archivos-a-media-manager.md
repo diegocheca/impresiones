@@ -53,5 +53,17 @@ Paso 1 editar el array de minetype:world:
 ```
 {% endcode %}
 
+## Haciendo las modificaciones validas
 
+Paso 1: parar el servicio del servidor \(control + c , en la consola donde este corriendo\)
+
+Paso 2: correr los comandos:
+
+```bash
+php artisan cache:clear
+php artisan config:clear
+php artisan config:cace
+```
+
+Paso 3:
 
