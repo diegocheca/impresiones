@@ -2,6 +2,10 @@
 
 use Illuminate\Support\Facades\Route;
 
+use App\Http\Controllers\CaptchaValidationController;
+ use App\Http\Controllers\EmailController;
+ 
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -13,9 +17,19 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+
+Route::get("send-email", [EmailController::class, "sendEmail"]);
+
+
+//captchas
+Route::get('contact-form-captcha', [CaptchaValidationController::class, 'index']);
+Route::post('captcha-validation', [CaptchaValidationController::class, 'capthcaFormValidate']);
+Route::get('reload-captcha', [CaptchaValidationController::class, 'reloadCaptcha']);
+
+/*
 Route::get('/', function () {
     return view('welcome');
-});
+});*/
 
 Route::get('/home', function () {
     return view('impresiones-index');
