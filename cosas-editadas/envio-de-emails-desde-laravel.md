@@ -71,7 +71,7 @@ You will have to Login your Gmail account. Then go to the option **Manage your G
 
 ![](../.gitbook/assets/emails14.png)
 
-### Paso 3: crear el elemento mail de laravel
+### Paso 4: crear el elemento mail de laravel
 
 Para ello se debe correr el siguiente comando:
 
@@ -85,17 +85,11 @@ php artisan make:mail FirstEmail
 
 ![](../.gitbook/assets/emails16.png)
 
-
-
-### Paso 4: Crear la vista
+### Paso 5: Crear la vista
 
 ![](../.gitbook/assets/emails17.png)
 
-###  Paso 5: crear el controller
-
-![](../.gitbook/assets/emails18.png)
-
-### Paso 4: Creación del controlador
+### Paso 6: Creación del controlador
 
  Para este ejemplo, vamos a crear un controlador que llamaremos **EmailController.php,** y añadiremos la siguiente función:
 
@@ -129,6 +123,10 @@ class EmailController extends Controller
 }
 ```
 {% endcode %}
+
+
+
+![](../.gitbook/assets/emails18.png)
 
 ### Paso 5: configurar ruta para el emails
 
