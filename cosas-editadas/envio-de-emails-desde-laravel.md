@@ -6,6 +6,10 @@ description: >-
 
 # Envio de emails desde laravel
 
+{% hint style="info" %}
+Ref: [https://programmingfields.com/send-email-in-laravel-8-using-gmail-smtp/](https://programmingfields.com/send-email-in-laravel-8-using-gmail-smtp/)
+{% endhint %}
+
 ### Paso 1: configurar server
 
 Ahora toca configurar nuestra aplicación para indicarle que correo debe utilizar, su contraseña, que protocolo de comunicación, etc.
