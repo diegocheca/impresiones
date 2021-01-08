@@ -178,7 +178,11 @@ return [
         //catchas
         Mews\Captcha\CaptchaServiceProvider::class,
 
+        //pdf
+        Barryvdh\DomPDF\ServiceProvider::class,
     ],
+
+
 
     /*
     |--------------------------------------------------------------------------
@@ -230,6 +234,8 @@ return [
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
         'Captcha' => Mews\Captcha\Facades\Captcha::class,
+        'PDF' => Barryvdh\DomPDF\Facade::class,
+
 
     ],
 

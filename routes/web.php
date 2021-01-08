@@ -3,8 +3,8 @@
 use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\CaptchaValidationController;
- use App\Http\Controllers\EmailController;
- 
+use App\Http\Controllers\EmailController;
+use App\Http\Controllers\PDFController;
 
 /*
 |--------------------------------------------------------------------------
@@ -20,6 +20,8 @@ use App\Http\Controllers\CaptchaValidationController;
 
 Route::get("send-email", [EmailController::class, "sendEmail"]);
 
+//pdf
+Route::get('generate-pdf', [PDFController::class, 'generatePDF']);
 
 //captchas
 Route::get('contact-form-captcha', [CaptchaValidationController::class, 'index']);
