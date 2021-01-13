@@ -132,7 +132,7 @@ class EmailController extends Controller
 
 ![](../.gitbook/assets/emails18.png)
 
-### Paso 5: configurar ruta para el emails
+### Paso 7: configurar ruta para el emails
 
 Para enviar emails con nuestra aplicación laravel, modificaremos nuestro archivo web.php con las siguientes rutas:
 
@@ -145,6 +145,47 @@ use App\Http\Controllers\EmailController;
 
 Route::get("send-email", [EmailController::class, "sendEmail"]);
 
+
+```
+{% endcode %}
+
+### Paso 8: confirgurar email
+
+{% code title="app\\Mail\\FirstMail.php" %}
+```bash
+<?php
+
+namespace App\Mail;
+
+use Illuminate\Bus\Queueable;
+use Illuminate\Contracts\Queue\ShouldQueue;
+use Illuminate\Mail\Mailable;
+use Illuminate\Queue\SerializesModels;
+
+class FirstEmail extends Mailable
+{
+    use Queueable, SerializesModels;
+
+    /**
+     * Create a new message instance.
+     *
+     * @return void
+     */
+    public function __construct()
+    {
+        //
+    }
+
+    /**
+     * Build the message.
+     *
+     * @return $this
+     */
+    public function build()
+    {
+        return $this->view('email-template');
+    }
+}
 
 ```
 {% endcode %}
