@@ -183,10 +183,24 @@ class FirstEmail extends Mailable
      */
     public function build()
     {
-        return $this->view('email-template');
+        return $this->from("gismineronacional@gmail.com")->view('email-template');
     }
 }
 
 ```
 {% endcode %}
+
+### Paso 9: configuración de emails
+
+{% code title="app\\config\\mail.php" %}
+```bash
+#creca de linea 86
+'from' => [
+        'address' => env('MAIL_FROM_ADDRESS'),
+        'name' => env('MAIL_FROM_NAME'),
+    ],
+```
+{% endcode %}
+
+### Paso 10: probar desde el navegador
 
