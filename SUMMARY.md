@@ -11,6 +11,7 @@
   * [Agregar opciones en el menu de profile](cosas-editadas/agregar-opciones-en-el-menu-de-profile.md)
   * [README](cosas-editadas/page.md)
   * [hacer media manager limitado](cosas-editadas/hacer-media-manager-limitado/README.md)
+    * [Ejemplo de validation de media picker](cosas-editadas/hacer-media-manager-limitado/ejemplo-de-validation-de-media-picker.md)
     * [LICENSE](cosas-editadas/hacer-media-manager-limitado/license.md)
 * [Activando Captcha para registration](untitled.md)
 
